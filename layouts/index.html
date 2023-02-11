@@ -1,6 +1,81 @@
+{{ define "header" }}
+  {{ partial "header" }}
+{{ end }}
 {{ define "main" }}
-<main class="container mx-auto px-4 py-24 bg-gray-100">
-    <h1>Welcome to Hugo with Tailwind CSS</h1>
-    <div class="text-gray-500">This is an example site with Tailwind CSS 2</div>
+
+<main class="container mt-20 flex gap-5">
+	<div class="shadow-lg hidden max-w-full md:block basis-1/4 p-4 rounded-lg bg-violet-900 border border-slate-600">
+		<aside>
+			<ul class="space-y-2 flex flex-col">
+				<li>
+					{{ partial "search" }}
+				</li>
+				<li class="flex">
+					<a class="side-menu" href="/">🏚️ 
+						<span class="hover:underline">Homepage</span>
+					</a>
+				</li>
+				<li class="flex">
+					<a class="side-menu" href="/tags">&nbsp#️⃣ 
+						<span class="hover:underline">Tags</span>
+					</a>
+				</li>
+				<li class="flex">
+					<a class="side-menu" href="/about">👨‍🔧 
+						<span class="hover:underline">About</span>
+					</a>
+				</li>
+				<li class="flex">
+					<a class="side-menu" href="/imprint">🖨️ 
+						<span class="hover:underline">Imprint</span>
+					</a>
+				</li>
+			</ul>
+		</aside>
+	</div>
+	<div class="basis-4/4 md:basis-3/4">
+	<h1 class="mt-0 mb-6">Get started with our latests posts</h1>
+		<ul class="space-y-2">
+			{{ range where .Paginator.Pages "Params.type" "ne" "page" }}
+				<li>
+					<article class="shadow-xl 500 y-6 border hover:bg-slate-600 bg-slate-800 border-slate-700 rounded-md">
+						
+							{{ $img := .Params.cover }}
+					
+							<section class="p-5 flex justify-between">
+								<div>
+									<a href="{{ .RelPermalink }}">
+										<h2 class="mt-0 hover:text-purple-300">{{ .Title }}</h2>
+									</a>
+									<div class="justify-between">
+										<span class="text-gray-300">{{ .Description }}</span>
+										<div class="mt-3 flex flex-wrap gap-1">
+											{{ range .Params.tags }}
+												<a class="tag-small" href="/tags/{{ . }}">
+													<span >
+														#{{ . }}
+													</span>
+												</a>
+											{{ end }}
+										</div>
+									</div>
+								</div>
+								<div class="flex flex-col justify-between items-center">
+									<div class="w-32 min-h-32 max-h-auto">
+										<a href="{{ .RelPermalink }}">
+											<img class="max-w-full h-auto" src="{{ $img }}" alt="{{ .Title }}"/>
+										</a>
+									</div>
+									<span>⏳ Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</span>
+								</div>
+							</section>
+					</article>
+				</li>
+			{{ end }}
+		</ul>
+	</div>
 </main>
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" }}
 {{ end }}

@@ -1,0 +1,13 @@
+<div class="flex items-center">
+    {{ $author := .context.Params.author }}
+
+    <a href="/about" class="relative block">
+        <img alt="profil" src="/img/author/{{ $author }}.webp" class="mx-auto object-cover rounded-full h-14 w-14 "/>
+    </a>
+    <div class="ml-3 flex flex-col">
+        <span class="text-bold ">{{ $author }}</span>
+        <span class="text-sm font-light">
+             Posted on {{ .context.Params.date.Format "January 2, 2006" }}
+        </span>
+    </div>
+</div>

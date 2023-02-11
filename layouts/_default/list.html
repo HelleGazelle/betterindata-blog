@@ -1,0 +1,24 @@
+{{ define "header" }}
+  {{ partial "header" }}
+{{ end }}
+{{ define "main" }}
+    <main class="prose dark:prose-invert px-10 container">
+        <header class="text-center mb-8 mt-20">
+          <h1 class="text-5xl text-white mb-1 font-extrabold">#{{ .Params.title }}</h1>
+        </header>
+      
+        <div class="h-3"></div>
+
+        <ul class="grid grid-cols-4 grid-rows-4 gap-4">
+            {{ range .Pages }}
+                <li class="list-none p-0">
+                   {{ partial "card" (dict "context" .) }}
+                </li>
+            {{ end }} 
+        </ul>
+    </main>
+
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" }}
+{{ end }}

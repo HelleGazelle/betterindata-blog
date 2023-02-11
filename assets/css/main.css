@@ -1,3 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+      font-family: Proxima Nova, system-ui, sans-serif;
+    }
+}
+
+nav {
+  background-color: #0f172a;
+}
+
+body {
+    background-color: #0f172a;
+    color: white;
+    /* background-color: white; */
+}
+
+.container {
+  @apply max-w-screen-2xl mx-auto px-3 md:px-8;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+    @apply leading-tight;
+    margin-top: 0.67em;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply leading-tight;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+  }
+  h3 {
+    @apply text-xl;
+    @apply font-bold;
+    @apply leading-tight;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  h4 {
+    @apply text-base;
+    @apply font-bold;
+    @apply leading-tight;
+  }
+}
+
+.tag {
+  @apply px-4 py-2 text-base rounded-full border border-white bg-purple-500 hover:bg-purple-800;
+}
+
+.tag-small {
+  @apply px-2 py-2 text-sm rounded-lg hover:bg-purple-500;
+}
+
+.side-menu {
+  @apply rounded-lg text-xl p-2 hover:bg-gray-400 grow;
+}
