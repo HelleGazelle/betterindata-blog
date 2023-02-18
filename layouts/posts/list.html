@@ -3,20 +3,48 @@
 {{ end }}
 {{ define "main" }}
     <main class="prose dark:prose-invert px-10 container">
-        <header class="text-center mb-8 mt-20">
+        <header class="text-center mb-8 mt-8">
             <h1 class="text-5xl text-white mb-1 font-extrabold">Posts</h1>
             <p class="my-0 text-white font-normal">Explore all Data posts</p>
         </header>
-      
-        <div class="h-3"></div>
-
-        <ul class="grid grid-cols-4 grid-rows-4 gap-4">
-            {{ range .Pages }}
-                <li class="list-none p-0">
-                   {{ partial "card" (dict "context" .) }}
-                </li>
-            {{ end }} 
-        </ul>
+		<ul class="space-y-2">
+			{{ range .Paginator.Pages }}
+				<li>
+					<article class="shadow-xl 500 y-6 border bg-slate-800 border-slate-700 rounded-md">
+						
+							{{ $img := .Params.cover }}
+					
+							<section class="p-5 flex justify-between">
+								<div>
+									<a href="{{ .RelPermalink }}">
+										<h2 class="mt-0 hover:text-purple-300">{{ .Title }}</h2>
+									</a>
+									<div class="justify-between">
+										<span class="text-gray-300">{{ .Description }}</span>
+										<div class="mt-3 flex flex-wrap gap-1">
+											{{ range .Params.tags }}
+												<a class="tag-small" href="/tags/{{ . }}">
+													<span >
+														#{{ . }}
+													</span>
+												</a>
+											{{ end }}
+										</div>
+									</div>
+								</div>
+								<div class="flex flex-col justify-between items-center">
+									<div class="w-32 min-h-32 max-h-auto">
+										<a href="{{ .RelPermalink }}">
+											<img class="max-w-full h-auto" src="{{ $img }}" alt="{{ .Title }}"/>
+										</a>
+									</div>
+									<span>⏳ Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</span>
+								</div>
+							</section>
+					</article>
+				</li>
+			{{ end }}
+		</ul>
     </main>
 
 {{ end }}
