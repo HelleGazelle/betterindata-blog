@@ -58,6 +58,10 @@ body {
   @apply px-2 py-2 text-sm rounded-lg hover:bg-purple-500;
 }
 
+.learning-path-image {
+  @apply brightness-0 invert w-5 h-5 mr-1;
+}
+
 .side-menu {
   @apply rounded-lg text-xl p-2 hover:bg-gray-400 grow;
 }
@@ -123,4 +127,21 @@ body {
   100% { 
     opacity: 0;
   }
+}
+
+/* tabs */
+.tablink {
+  @apply flex m-2 p-2 shrink-0 items-center border-b-2 rounded-lg border-transparent hover:text-gray-600 hover:scale-110 transform transition duration-300;
+}
+
+.tablink-active {
+  @apply flex m-2 p-2 shrink-0 items-center border-2 rounded-lg text-purple-600 border-purple-600;
+}
+
+.tabcontent {
+  @apply hidden p-4 border rounded-t border-gray-300 w-full;
+}
+
+.tabs {
+  @apply flex sm:flex-col overflow-scroll sm:overflow-hidden mr-4 text-base font-bold;
 }
