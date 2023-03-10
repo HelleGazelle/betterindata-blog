@@ -161,31 +161,29 @@
             },
             {
                 "title": "🧰 Data Quality",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Understanding data quality is essential because it allows you to identify and address any issues with the data you're working with. Poor data quality can lead to incorrect analyses, which can result in inaccurate insights and decision making. By possessing data quality skills, you can ensure the data you use is accurate, complete, and consistent, which ultimately leads to more reliable and valuable insights.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
-                    }
-                ]
-            },
-            {
-                "title": "⚖️ Data Management",
-                "shortdescription": "Learn the basics about version control",
-                "links": [
+                        "text": "What is Data Quality?",
+                        "url": "https://www.heavy.ai/technical-glossary/data-quality"
+                    },
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "Data Quality Rule Cheat Sheet?",
+                        "url": "https://www.collibra.com/us/en/resources/data-quality-rule-cheat-sheet"
                     }
                 ]
             },
             {
                 "title": "🔑 Data Security",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Data security is fundamental because it ensures that the sensitive information stored and processed by your organization is protected from unauthorized access, breaches, and theft. Failure to prioritize data security can result in significant financial and reputational damage, legal liability, and loss of trust from stakeholders.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Data Security?",
+                        "url": "https://www.ibm.com/topics/data-security"
+                    },
+                    {
+                        "text": "Book: Security Engineering [Ad]",
+                        "url": "https://amzn.to/3mKtea1"
                     }
                 ]
             }
@@ -196,31 +194,33 @@
         "items": [
             {
                 "title": "🔬 Data Visualization",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Data visualization is important for all data workers because it helps them communicate insights and findings to stakeholders in a clear and accessible way, leading to better decision-making and more effective communication. It also helps identify patterns and relationships in data that might not be apparent when looking at raw data, leading to new insights and discoveries.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
-                    }
-                ]
-            },
-            {
-                "title": "📊 Statistics",
-                "shortdescription": "Learn the basics about version control",
-                "links": [
+                        "text": "What is Data Analytics?",
+                        "url": "https://aws.amazon.com/de/what-is/data-analytics/"
+                    },
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "Inspiration for impactful data visuals: 'information is beautiful'",
+                        "url": "https://informationisbeautiful.net/"
+                    },
+                    {
+                        "text": "Comparison: Google Looker Studio vs Apache Superset",
+                        "url": "https://www.restack.io/docs/lookerstudio-vs-superset"
                     }
                 ]
             },
             {
                 "title": "🧬 Machine Learning",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Machine learning is a type of artificial intelligence that uses algorithms to enable computer systems to learn from and make decisions based on data. It involves developing models and algorithms that can analyze and learn from data, and then use that knowledge to make predictions or decisions.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Machine Learning?",
+                        "url": "https://www.ibm.com/topics/machine-learning"
+                    },
+                    {
+                        "text": "List of the different types of machine learning",
+                        "url": "https://machinelearningmastery.com/types-of-learning-in-machine-learning/"
                     }
                 ]
             }
@@ -231,41 +231,53 @@
         "items": [
             {
                 "title": "🌫️ Data Streaming",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Stream processing is important for data engineers because it allows them to analyze and act on real-time data as it is generated. This is essential for applications that require immediate responses, such as fraud detection, stock trading, or traffic monitoring.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Stream Processing?",
+                        "url": "https://hazelcast.com/glossary/stream-processing/"
+                    },
+                    {
+                        "text": "A list of data streaming frameworks and platforms",
+                        "url": "https://github.com/manuzhang/awesome-streaming"
                     }
                 ]
             },
             {
                 "title": "🌊 Batch Processing",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Batch processing is a method of processing data in which a set or batch of data is collected over a period of time, and then processed all at once as a single unit. This method is useful for processing large volumes of data that do not require real-time analysis, such as generating reports or performing complex calculations. Batch processing is typically more efficient than stream processing for large datasets, as it can be scheduled during off-peak hours and can take advantage of parallel processing.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Batch Processing?",
+                        "url": "https://aws.amazon.com/de/what-is/batch-processing/"
+                    },
+                    {
+                        "text": "Comparison: Batch Processing vs Stream Processing",
+                        "url": "https://hevodata.com/learn/batch-processing-vs-stream-processing/"
                     }
                 ]
             },
             {
-                "title": "⚡ Change Data Capture",
-                "shortdescription": "Learn the basics about version control",
+                "title": "⚡ Change data capture",
+                "shortdescription": "Change data capture is a method of capturing and processing only the changes made to a database, rather than processing the entire database each time. This allows data engineers to process and analyze data in near-real-time, without having to wait for a full database update. CDC is useful for applications that require up-to-date data, such as monitoring systems or financial transactions, and can help reduce the amount of processing and storage required.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is change data capture?",
+                        "url": "https://www.qlik.com/us/change-data-capture/cdc-change-data-capture"
                     }
                 ]
             },
             {
                 "title": "🌌 Data Manipulation",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Data manipulation is the process of transforming and modifying data to meet specific needs or requirements. This can involve a variety of operations, such as filtering, sorting, aggregating, and joining data, as well as creating new columns or variables. Data manipulation is a key skill for data engineers, as it enables them to prepare data for analysis, build data pipelines, and create outputs that are tailored to specific use cases or applications.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "Data Wrangling with pandas Cheat Sheet",
+                        "url": "https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"
+                    },
+                    {
+                        "text": "Fast Data Manipulation with Excel",
+                        "url": "https://skillfine.com/excel-data-analysis-techniques/"
                     }
                 ]
             }
@@ -276,31 +288,51 @@
         "items": [
             {
                 "title": "☁️ Cloud Computing",
-                "shortdescription": "What is Cloud Computing?",
+                "shortdescription": "Cloud computing is important for data workers because it allows them to store, process, and analyze large amounts of data more efficiently and cost-effectively than traditional solutions. It also provides access to advanced data analytics tools and services that can help data workers gain insights and make better decisions.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Cloud Computing?",
+                        "url": "https://aws.amazon.com/de/what-is-cloud-computing/"
+                    },
+                    {
+                        "text": "Video: Cloud Computing in 6 Minutes",
+                        "url": "https://www.youtube.com/watch?v=M988_fsOSWo"
                     }
                 ]
             },
             {
                 "title": "⛅ AWS, Azure, GCP",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Know at least one hyperscaler cloud service provider. Choose your favorite.",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Google Cloud Platform (GCP)?",
+                        "url": "https://acloudguru.com/blog/engineering/what-is-google-cloud-platform-gcp"
+                    },
+                    {
+                        "text": "What is Amazon Web Services (AWS)?",
+                        "url": "https://aws.amazon.com/de/what-is-aws/"
+                    },
+                    {
+                        "text": "What is Microsoft Azure?",
+                        "url": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/"
+                    },
+                    {
+                        "text": "Map of all cloud services in GCP vs Aure vs AWS",
+                        "url": "https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison"
                     }
                 ]
             },
             {
                 "title": "🌨️ Others",
-                "shortdescription": "Learn the basics about version control",
+                "shortdescription": "Beside the major hyperscalers there are also other cloud platforms with different specializations. Have a look at them!",
                 "links": [
                     {
-                        "text": "What is ?",
-                        "url": ""
+                        "text": "What is Digital Ocean?",
+                        "url": "https://www.digitalocean.com/"
+                    },
+                    {
+                        "text": "What is Alibaba Cloud?",
+                        "url": "https://bluexp.netapp.com/blog/alibaba-cloud-computing-an-introduction"
                     }
                 ]
             }
