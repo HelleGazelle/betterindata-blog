@@ -4,9 +4,38 @@
 {{ define "main" }}
 
 
-<div class="p-4">
-   {{ partial "learningpath" }}
-</div>
+<section class=" mt-6 p-4 rounded-lg border border-white">
+  <script src="/js/learningpath.js"></script>
+  <h2 class="rw-sentence text-4xl mb-5 mt-0">
+      <span>Join the Ultimate Data Learning Path</span>
+  </h2>
+  <div class="sm:flex">
+      <div class="tabs text-lg font-medium text-gray-500 sm:basis-1/5 mb-2">
+        {{ range $.Site.Data.path_items }}
+          <button onclick="openPathTab(event, '{{ .title }}')" class="tablink">
+              <img class="learning-path-image" src="/img/icon/{{ .title }}.svg" />
+              {{ .title }}
+          </button>
+        {{ end }}
+      </div>
+      <div class="basis-4/5">
+        {{ range $.Site.Data.path_items }}
+          <div class="tabcontent" id="{{ .title }}">
+            <h1 class="mt-0">{{ .title }}</h1>
+              <ul class="flex-wrap items-center justify-center gap-8 text-center sm:flex">
+                {{ range .items }}
+                  {{ partial "pathitem" (dict "context" .) }}
+                {{ end }}
+              </ul>
+          </div>
+        {{ end }}
+      </div>
+  </div>
+  <script>
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementsByClassName("tablink")[0].click();
+  </script>
+</section>
 
 
 {{ end }}
