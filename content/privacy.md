@@ -1,5 +1,5 @@
 ## Privacy Policy
-Your privacy is important to us. It is digbata's policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, https://digbata.com, and other sites we own and operate.
+Your privacy is important to us. It is betterindata's policy to respect your privacy and comply with any applicable law and regulation regarding any personal information we may collect about you, including across our website, https://betterindata.com, and other sites we own and operate.
 
 This policy is effective as of 9 May 2021 and was last updated on 9 May 2021.
 
@@ -91,4 +91,4 @@ If required by law, we will get your permission or give you the opportunity to o
 For any questions or concerns regarding your privacy, you may contact us using the following details:
 
 Alois Niedermaier
-digbata@googlemail.com
+betterindata@googlemail.com

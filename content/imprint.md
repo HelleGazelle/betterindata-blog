@@ -11,7 +11,7 @@ Josef-Mayer-Straße 21
 
 ## Contact:
 Telefon: +49 173 2462 156
-E-Mail: digbata (at) googlemail.com
+E-Mail: betterindata (at) googlemail.com
 VAT: DE249664276
 
 ## Responsible for content:
