@@ -3,12 +3,8 @@
 {{ end }}
 {{ define "main" }}
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-  mermaid.initialize({ startOnLoad: true });
-</script>
-<main class="container mt-20 flex gap-5">
-	<div class="shadow-lg hidden max-w-full md:block basis-1/4 p-4 rounded-lg bg-violet-900 border border-slate-600">
+<main class="max-w-screen-2xl px-3 md:px-8 mt-10 flex flex-wrap gap-5 justify-center">
+	<div class="shadow-lg hidden max-w-full md:block md:basis-1/4 p-4 rounded-lg bg-violet-900 border border-slate-600">
 		<aside>
 			<ul class="space-y-2 flex flex-col">
 				<li class="flex">
@@ -31,33 +27,54 @@
 						<span class="hover:underline">About</span>
 					</a>
 				</li>
-				<li class="flex">
+				<!-- <li class="flex">
 					<a class="side-menu" href="/imprint">🖨️ 
 						<span class="hover:underline">Imprint</span>
 					</a>
-				</li>
+				</li> -->
 			</ul>
 		</aside>
 	</div>
-	<div class="basis-4/4 md:basis-3/4">
-		<section class="rw-wrapper">
-			<h2 class="rw-sentence text-4xl mb-5 mt-0">
-				<span>Become better at Data</span>
-				<div class="rw-words rw-words-1">
-					<span>Engineering</span>
-					<span>Manipulation</span>
-					<span>Analysis</span>
-					<span>Cleansing</span>
-					<span>Visualization</span>
-					<span>Juggling</span>
-				</div>
-			</h2>
-			<div class="max-w-xl">
-				<span class="text-2xl break-words">
+	<div class="md:basis-2/4">
+		<section class="relative">
+			<div class="animation-container">
+				<h2 class="rw-sentence text-4xl flex flex-row">
+					Become better at Data
+					<div class="flip ml-2">
+						<div><div>Engineering</div></div>
+						<div><div>Analysis</div></div>
+						<div><div>Visualization</div></div>
+						<div><div>Juggling</div></div>
+					</div>
+				</h2>
+			</div>
+			
+			<div class="max-w-2xl bg-violet-900 rounded-lg p-4">
+				<span class="text-2xl break-words font-semibold">
 					Fuel Your Data Journey with Our Expertise
 				</span>
+				<div>
+					<a href="/learningpath">
+						<button type="button" class="py-2 px-4 rounded-lg my-2 bg-gradient-to-r from-[#FFA3FD] to-[#865DFF] text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 ">
+							🪐 follow our intergalactic learning path
+						</button>
+					</a>
+				</div>
+				
+				<img class="rounded-lg" width="100%" src="/img/homepage.webp"/>
 			</div>
 		</section>
+	</div>
+	<div class="max-w-2xl bg-violet-900 rounded-lg p-4 basis-full">
+		<span class="text-2xl break-words font-semibold">
+			Latest data projects
+		</span>
+		<div>
+			{{ range where .Paginator.Pages "Params.type" "eq" "projects" }}
+				{{ .Title }}
+			{{ end}}
+		</div>
+
 	</div>
 </main>
 {{ end }}
