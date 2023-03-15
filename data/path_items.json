@@ -3,7 +3,7 @@
         "title": "Basics",
         "items": [
             {
-                "title": "🗒️ Git",
+                "title": "🕹️ Git",
                 "shortdescription": "Git is a powerful tool for version control, enabling you to track changes to your code and data pipelines. By using Git, you can collaborate with others, revert to previous versions of your work, manage conflicts that arise from concurrent edits.",
                 "links": [
                     {
