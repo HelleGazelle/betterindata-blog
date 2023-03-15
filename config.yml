@@ -1,6 +1,14 @@
 baseURL: 'http://example.org/'
 languageCode: 'en-us'
 title: 'My New Hugo Site'
+canonifyURLs: true
+
+sitemap:
+  changefreq: weekly
+
+permalinks:
+  posts: "/:year/:month/:slug/"
+  page: "/:slug/"
 
 markup:
   goldmark:
