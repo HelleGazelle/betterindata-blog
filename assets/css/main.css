@@ -9,7 +9,7 @@
 }
 
 nav {
-  background-color: #0f172a;
+  @apply bg-purple-500;
 }
 
 .logo {
@@ -19,9 +19,7 @@ nav {
 }
 
 body {
-    background-color: #0f172a;
-    color: white;
-    /* background-color: white; */
+  @apply bg-black text-white;
 }
 
 .container {
@@ -57,11 +55,11 @@ body {
 }
 
 .tag {
-  @apply px-4 py-2 text-base rounded-full border border-white bg-purple-500 hover:bg-purple-800;
+  @apply px-4 py-2 text-base rounded-full border border-white bg-pink-500 hover:bg-pink-800;
 }
 
 .tag-small {
-  @apply px-2 py-2 text-sm rounded-lg hover:bg-purple-500;
+  @apply px-2 py-2 text-sm rounded-lg hover:bg-pink-500;
 }
 
 .learning-path-image {
@@ -69,7 +67,7 @@ body {
 }
 
 .side-menu {
-  @apply rounded-lg text-xl p-2 hover:bg-gray-400 grow;
+  @apply rounded-lg text-xl p-2 hover:bg-pink-400 grow;
 }
 
 .flip {
@@ -88,16 +86,16 @@ body {
 }
 
 .flip div div {
-  color:#865DFF;
+  color: #19D3DA;
 }
 .flip div:nth-child(1) div {
-  color:#FBFFB1;
+  color: orange;
 }
 .flip div:nth-child(2) div {
   color:#FFA3FD;
 }
 .flip div:nth-child(3) div {
-  color:#E384FF;
+  color:#F0EB8D;
 }
 
 @keyframes show {
@@ -110,6 +108,7 @@ body {
   75% {margin-top:-90px;}
   80% {margin-top:0px;}
   95% {margin-top:0px;}
+  99.99% {margin-top:0px;}
   100% {margin-top:-360px;}
 }
 
@@ -120,7 +119,7 @@ body {
 }
 
 .tablink-active {
-  @apply flex m-2 p-2 shrink-0 items-center border-2 rounded-lg text-purple-600 border-purple-600;
+  @apply flex m-2 p-2 shrink-0 items-center border-2 rounded-lg text-pink-600 border-pink-600;
 }
 
 .tabcontent {

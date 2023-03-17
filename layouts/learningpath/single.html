@@ -22,7 +22,7 @@
         {{ range $.Site.Data.path_items }}
           <div class="tabcontent" id="{{ .title }}">
             <h1 class="mt-0">{{ .title }}</h1>
-              <ul class="flex-wrap items-center justify-center gap-8 text-center sm:flex">
+              <ul class="flex-wrap items-stretch justify-center gap-8 text-center sm:flex">
                 {{ range .items }}
                   {{ partial "pathitem" (dict "context" .) }}
                 {{ end }}
