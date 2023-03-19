@@ -1,25 +1,24 @@
 <nav>
-    <div class="bg-purple-500 border-b-2 border-slate-600">
-        <div class="mr-3 ml-3">
-            <div class="flex items-center justify-between h-16">
-                <div class="w-full justify-between flex items-center h-12">
-                    <a class="flex-shrink-0" href="/">
-                        <div class="hidden md:flex logo">
-                            <img class="w-8 mr-2" src="/img/logo.svg"/>
-                            <button> betterindata</button>
-                        </div>
-                        <button class="logo md:hidden"><img class="w-8" src="/img/logo.svg"/></button>
-                    </a>
-                    <div class="flex gap-8">
-                        <a href="/posts">
-                            <span class="text-xl font-bold hover:text-pink-400">Posts</span>
-                        </a>
-                        <a href="/learningpath">
-                            <span class="text-xl font-bold hover:text-pink-400">Learning Path</span>
-                        </a>
-                    </div>
+    <div class="px-2 bg-purple-500 border-b-2 border-slate-600 w-full h-16 flex justify-between items-center">
+        <a href="/">
+            <div class="hidden md:flex logo">
+                <div class="w-10 h-10 mr-2 p-1 bg-white rounded-full">
+                    <img class="p-0.5" src="/img/logo.svg"/>
                 </div>
+                <button> betterindata</button>
             </div>
+            <button class="logo md:hidden"><div class="w-10 h-10 mr-2 p-1 bg-white rounded-full"><img class="w-8" src="/img/logo.svg"/></div></button>
+        </a>
+        <div class="flex gap-8">
+            <a href="/lessons">
+                <span class="text-base md:text-xl font-bold hover:text-orange-400">Lessons</span>
+            </a>
+            <a href="/projects">
+                <span class="text-base md:text-xl font-bold hover:text-orange-400">Projects</span>
+            </a>
+            <a href="/learningpath">
+                <span class="text-base md:text-xl font-bold hover:text-orange-400">Learning Path</span>
+            </a>
         </div>
     </div>
 </nav>

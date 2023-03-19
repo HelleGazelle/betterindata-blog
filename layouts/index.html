@@ -4,38 +4,20 @@
 {{ define "main" }}
 
 <main class="max-w-screen-2xl px-3 md:px-8 mt-10 flex flex-wrap gap-5 justify-center">
-	<div class="shadow-lg hidden max-w-full md:block md:basis-1/4 p-4 rounded-lg bg-purple-500 border border-slate-600">
+	<div class="shadow-lg p-4 rounded-lg bg-purple-500 w-64 hidden md:block">
 		<aside>
 			<ul class="space-y-2 flex flex-col">
-				<li class="flex">
-					<a class="side-menu" href="/">🏚️ 
-						<span class="hover:underline">Homepage</span>
-					</a>
-				</li>
-				<li class="flex">
-					<a class="side-menu" href="/posts">📬 
-						<span class="hover:underline">Posts</span>
-					</a>
-				</li>
-				<li class="flex">
-					<a class="side-menu" href="/tags">&nbsp#️⃣ 
-						<span class="hover:underline">Tags</span>
-					</a>
-				</li>
-				<li class="flex">
-					<a class="side-menu" href="/about">👨‍🔧 
-						<span class="hover:underline">About</span>
-					</a>
-				</li>
-				<!-- <li class="flex">
-					<a class="side-menu" href="/imprint">🖨️ 
-						<span class="hover:underline">Imprint</span>
-					</a>
-				</li> -->
+				{{ range $.Site.Data.main_menu }}
+					<li class="flex">
+						<a class="side-menu" href="{{ .href }}">{{ .emoji }} 
+							<span class="hover:underline">{{ .title }}</span>
+						</a>
+					</li>
+				{{ end}}
 			</ul>
 		</aside>
 	</div>
-	<div class="md:basis-2/4">
+	<div class="">
 		<section class="relative">
 			<div class="animation-container">
 				<h2 class="rw-sentence text-4xl flex flex-col xl:flex-row">
@@ -65,14 +47,16 @@
 			</div>
 		</section>
 	</div>
-	<div class="max-w-2xl bg-purple-500 rounded-lg p-4 basis-full">
+	<div class="bg-purple-500 rounded-lg p-4">
 		<span class="text-2xl break-words font-semibold">
-			Latest data projects
+			Latest Data Lessons
 		</span>
 		<div>
-			{{ range where .Paginator.Pages "Params.type" "eq" "projects" }}
-				{{ .Title }}
+			<ul class="space-y-2">
+			{{ range where .Paginator.Pages "Type" "lessons"}}
+				{{ partial "article" (dict "context" .)}}
 			{{ end}}
+			</ul>
 		</div>
 
 	</div>

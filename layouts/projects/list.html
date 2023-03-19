@@ -1,0 +1,66 @@
+{{ define "header" }}
+  {{ partial "header" }}
+{{ end }}
+{{ define "main" }}
+
+{{ if eq .CurrentSection.RelPermalink "/projects/" }}
+
+
+{{/*  layout for all projects  */}}
+<main class="prose dark:prose-invert px-10 container">
+
+        <header class="text-center mb-8 mt-20">
+            <h1 class="text-5xl mb-1">Data Sample Projects</h1>
+            <p class="my-0 text-gray3">multi-step data projects for getting in touch with cutting edge technologies</p>
+        </header>
+  
+    <div class="h-3"></div>
+
+    <ul class="grid sm:grid-cols-4 grid-cols-1 grid-rows-4 gap-4">
+        {{ range .Pages }}
+            <li class="list-none p-0">
+               {{ partial "card" (dict "context" . "img" (print .RelPermalink "img/cover.webp")) }}
+            </li>
+        {{ end }} 
+    </ul>
+</main>
+
+
+{{ else }}
+{{/*  layout for individual project landing page  */}}
+<header class="text-center my-12">
+  <h1 class="text-6xl mb-0 inline-block mx-auto">{{ .Params.title }}</h1>
+  <p class="text-gray3 my-1">{{ .Params.description }}</p>
+</header>
+
+<article class="max-w-3xl mx-auto">
+  {{ .Content }}
+</article>
+
+<div class="text-center">
+  <h2 class="text-4xl pb-2 inline-block mt-24">Chapters</h2>
+</div>
+  <div class="flex justify-center">
+      <ul class="grid sm:grid-cols-3 grid-cols-1 grid-rows-4 gap-4">
+          {{ range $index, $page := .Pages }}
+          <a class="no-underline relative hover:scale-105 transition-transform" href="{{ .RelPermalink }}">
+              <li class="max-w-sm overflow-hidden shadow-3xl bg-purple-500 p-6 rounded-xl">
+                  <span class="absolute -top-2 -left-5 font-display leading-6 text-center text-3xl w-10 h-10 rounded-full p-2">
+                      {{/*  {{ printf "%02d" ( add $index 1 )}}  */}}
+                      {{ $page.Params.emoji }}
+                  </span>
+                  <h5><span class="gradient-text mb-0">{{ printf "%02d" ( add $index 1 )}}</span> {{ $page.Title }}</h5>
+                  <p class="text-gray3">{{ $page.Summary }}</p>
+              </li>
+          </a>
+          {{ end }} 
+      </ul>
+  </div>
+
+{{ end }} 
+
+
+{{ end }}
+{{ define "footer" }}
+  {{ partial "footer" }}
+{{ end }}
