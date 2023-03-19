@@ -8,10 +8,6 @@
     }
 }
 
-nav {
-  @apply bg-purple-500;
-}
-
 .logo {
   font-family: Lilita One, system-ui, sans-serif;
   padding: 3px;
@@ -55,11 +51,11 @@ body {
 }
 
 .tag {
-  @apply px-4 py-2 text-base rounded-full border border-white bg-pink-500 hover:bg-pink-800;
+  @apply px-4 py-2 text-base rounded-full border border-white bg-orange-500 hover:bg-orange-800;
 }
 
 .tag-small {
-  @apply px-2 py-2 text-sm rounded-lg hover:bg-pink-500;
+  @apply px-2 py-2 text-sm rounded-lg hover:bg-orange-500;
 }
 
 .learning-path-image {
@@ -67,7 +63,7 @@ body {
 }
 
 .side-menu {
-  @apply rounded-lg text-xl p-2 hover:bg-pink-400 grow;
+  @apply rounded-lg text-xl p-2 hover:bg-orange-400;
 }
 
 .flip {
@@ -119,7 +115,7 @@ body {
 }
 
 .tablink-active {
-  @apply flex m-2 p-2 shrink-0 items-center border-2 rounded-lg text-pink-600 border-pink-600;
+  @apply flex m-2 p-2 shrink-0 items-center border-2 rounded-lg text-orange-600 border-orange-600;
 }
 
 .tabcontent {
@@ -128,4 +124,13 @@ body {
 
 .tabs {
   @apply flex sm:flex-col overflow-scroll sm:overflow-hidden mr-4 text-base font-bold;
+}
+
+/* courses */
+.active-chapter {
+  @apply text-white font-bold bg-orange-500;
+}
+
+.navigation-button {
+  @apply p-2 mx-2 text-sm rounded-lg border border-white hover:bg-orange-500;
 }

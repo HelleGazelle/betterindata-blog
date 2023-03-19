@@ -7,8 +7,8 @@ module.exports = {
     colors: {
       white: colors.white,
       purple: {
-        500: "#865DFF",
-        900: "#531df4"
+        500: "#5D3891",
+        900: "#4c2e76"
       },
       gray: colors.gray,
       violet: {
@@ -16,12 +16,13 @@ module.exports = {
       },
       transparent: colors.transparent,
       black: "#191825",
-      pink: {
-        400: "#fcb3fa",
-        500: "#FFA3FD",
-        600: "#f78af3",
-        800: "#ef62ea"
-      }
+      orange: {
+        400: "#faa53c",
+        500: "#F99417",
+        600: "#ea580c",
+        800: "#c2410c"
+      },
+      pink: colors.pink
     }
   },
   variants: {

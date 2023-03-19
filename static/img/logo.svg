@@ -3,7 +3,7 @@
 <!-- Created with Vectornator (http://vectornator.io/) -->
 <svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs/>
-<g id="Ebene-1" vectornator:layerName="Ebene 1">
+<g id="alt" vectornator:layerName="alt" visibility="hidden">
 <path d="M600 60L960 420L510 870L150 510L600 60Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="none"/>
 <path d="M600 60L960 420L960 60L600 60Z" fill="#e384ff" fill-rule="nonzero" opacity="1" stroke="none"/>
 <path d="M150 510L510 870L330 870L150 690L150 510Z" fill="#191825" fill-rule="nonzero" opacity="1" stroke="none"/>
@@ -13,5 +13,18 @@
 <path d="M510 420C510 370.294 550.294 330 600 330C649.706 330 690 370.294 690 420C690 469.706 649.706 510 600 510C550.294 510 510 469.706 510 420Z" fill="#c1b5c4" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="11.835"/>
 <path d="M60 960L150 690L150 510L60 420L240 240L420 240L600 60L960 60L960 420L780 600L780 780L600 960L510 870L330 870L60 960Z" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="11.835"/>
 <path d="M420 240L150 510L510 870L780 600" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="11.835"/>
+</g>
+<g id="neu" vectornator:layerName="neu">
+<path d="M660 60L960 360L480 840L180 540L660 60Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M660 60L960 360L960 60L660 60Z" fill="#5d3891" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M360 660L600 420" fill="#5d3891" fill-rule="nonzero" opacity="1" stroke="#5d3891" stroke-linecap="round" stroke-linejoin="round" stroke-width="28.9543"/>
+<path d="M180 540L480 840L360 840L180 660L180 540Z" fill="#191825" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M180 660L360 840L270 930L60 960L90 750L180 660Z" fill="#f99417" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M180 540L90 450L270 270L450 270L480 240L180 540Z" fill="#5d3891" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M480 846.923L561 930L750 750L750 570L480 846.923Z" fill="#5d3891" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M630 315C630 273.579 663.579 240 705 240C746.421 240 780 273.579 780 315C780 356.421 746.421 390 705 390C663.579 390 630 356.421 630 315Z" fill="#c1b5c4" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="11.835"/>
+<path d="M60 960L90 750L180 660L180 540L90 450L270 270L450 270L660 60L960 60L960 360L750 570L750 750L570 930L480 840L360 840L270 930L60 960Z" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="11.835"/>
+<path d="M480 240L180 540L480 840L780 540" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="11.835"/>
+<path d="M210 690L330 810L210 870L150 870L150 810L210 690Z" fill="#f9e117" fill-rule="nonzero" opacity="1" stroke="none"/>
 </g>
 </svg>
