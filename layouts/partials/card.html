@@ -7,7 +7,7 @@
         <section class="p-5">
                 <h4>{{ .context.Title }}</h4>
                 
-                <p class="text-gray mt-1 font-light min-h-[100px]">{{ .context.Description }}</p>
+                <p class="text-gray mt-1 font-light">{{ .context.Description }}</p>
                 <div class="mt-3 flex flex-wrap gap-1">
                     {{ range .context.Params.tags }}
                         <span class="tag text-sm">

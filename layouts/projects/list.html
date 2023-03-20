@@ -28,10 +28,30 @@
 
 {{ else }}
 {{/*  layout for individual project landing page  */}}
-<header class="text-center my-12">
+<header class="text-center mx-auto my-12">
+  <img class="max-h-80 rounded-lg mt-2 m-auto" src="{{ .Params.cover }}" />
   <h1 class="text-6xl mb-0 inline-block mx-auto">{{ .Params.title }}</h1>
   <p class="text-gray3 my-1">{{ .Params.description }}</p>
+  <div class="flex flex-col items-center">
+    <div class="flex-reverse m-2.5">
+      {{ range .Params.tags }}
+          <a href="/tags/{{ . }}">
+            <button class="tag">#{{ . }}</button>
+          </a>
+      {{ end }}
+    </div>
+    {{ partial "author" (dict "context" .) }}
+  </div>
 </header>
+
+<div class="text-center bg-gray-800 rounded-lg max-w-3xl mx-auto py-5">
+  <h3 class="text-2xl inline-block mt-0">Tech Stack</h3>
+  <div class="flex justify-center">
+    {{ range .Params.Stack }}
+        <img class="w-10" src="/img/stack/{{ . }}.svg"/>
+      {{ end }}
+  </div>
+</div>
 
 <article class="max-w-3xl mx-auto">
   {{ .Content }}
