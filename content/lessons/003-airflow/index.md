@@ -1,7 +1,6 @@
 ---
 title: Jarrett Helton
 draft: false
-type: "posts"
 summary: Jarrett is a code enthusiast from the Central Michigan area.
 links:
   linkedin: https://www.linkedin.com/in/jarrett-helton-b2b209102/

@@ -1,7 +1,6 @@
 ---
 title: JSON Schema
 draft: false
-type: "posts"
 summary: JSON Schema is mandatoy when dealing with data
 links:
   linkedin: https://www.linkedin.com/in/jarrett-helton-b2b209102/

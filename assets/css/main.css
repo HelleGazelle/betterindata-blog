@@ -8,6 +8,10 @@
     }
 }
 
+.myclass {
+  @apply border border-white rounded-lg p-3 whitespace-pre-wrap	overflow-scroll;
+}
+
 .logo {
   font-family: Lilita One, system-ui, sans-serif;
   padding: 3px;
@@ -47,6 +51,18 @@ body {
     @apply text-base;
     @apply font-bold;
     @apply leading-tight;
+  }
+  ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+  }
+  section {
+    display: block;
   }
 }
 
@@ -132,5 +148,5 @@ body {
 }
 
 .navigation-button {
-  @apply p-2 mx-2 text-sm rounded-lg border border-white hover:bg-orange-500;
+  @apply p-2 mx-2 text-sm font-bold rounded-lg border border-white hover:bg-orange-500;
 }
