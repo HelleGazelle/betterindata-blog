@@ -19,7 +19,7 @@ We will use matplotlib as a simple build-in python visualization package.
 ## Code
 
 #### load.py
-```python {.myclass}
+```python {.codeblock}
 import csv
 import matplotlib.pyplot as plt
 

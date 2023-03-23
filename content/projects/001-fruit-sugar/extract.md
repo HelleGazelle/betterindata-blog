@@ -14,7 +14,7 @@ The API does not require an account and we can pull all the fruit data from the 
 Setup an extraction pipeline in Python for downloading the fruit data as JSON. Install the `requests` package with `pip install requests` if not done already.
 
 #### extract.py
-```python {.myclass}
+```python {.codeblock}
 import json
 import requests
 

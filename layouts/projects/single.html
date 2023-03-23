@@ -48,17 +48,15 @@
 		<article class="prose dark:prose-invert pt-1 mx-auto px-3 md:px-8 min-w-0 max-w-none w-full">
 
 		<nav class="flex items-center py-6 px-4 mb-6">
-			<div>
-				{{with .NextInSection}}
-					<a class="navigation-button" href="{{.RelPermalink}}"><span>⬅️</span><span class="hidden md:block"> Previous Chapter</span></a>
-				{{end}}
+			{{with .NextInSection}}
+				<a class="navigation-button" href="{{.RelPermalink}}"><span>⬅️</span><span class="hidden md:block"> Previous Chapter</span></a>
+			{{end}}
 
-				<a class="navigation-button" href="{{.Parent.RelPermalink}}"><span class="hidden md:block"> Project Homer</span><span>🏠</span></a>
+			<a class="navigation-button" href="{{.Parent.RelPermalink}}"><span class="hidden md:block"> Project Home</span><span>🏠</span></a>
 
-				{{with .PrevInSection}}
-					<a class="navigation-button" href="{{.RelPermalink}}"><span class="hidden md:block"> Next Chapter</span><span>➡️</span></a>
-				{{end}}
-			</div>
+			{{with .PrevInSection}}
+				<a class="navigation-button" href="{{.RelPermalink}}"><span class="hidden md:block"> Next Chapter</span><span>➡️</span></a>
+			{{end}}
 		</nav>
 
 

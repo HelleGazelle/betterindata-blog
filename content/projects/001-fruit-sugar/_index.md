@@ -12,11 +12,19 @@ stack:
   - python
 ---
 
+## Difficulty
+Beginner
+
+## What will you learn?
+1. Basic ETL processing
+2. Handling basic formats (JSON, CSV)
+3. Interaction with a simple REST API
+
 ## What will we do?
 Create a simple ETL process:
 
 1. Load data from a public REST API
-2. Add a simple transformation
+2. Do some simple transformation
 3. Visualize the data
 
 ## Why are we doing that?
