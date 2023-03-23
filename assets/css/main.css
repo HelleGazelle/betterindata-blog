@@ -8,8 +8,12 @@
     }
 }
 
-.myclass {
-  @apply border border-white rounded-lg p-3 whitespace-pre-wrap	overflow-scroll;
+.code {
+  @apply p-3 border border-gray-300;
+}
+
+.codeblock {
+  @apply border border-white rounded-lg p-3 whitespace-pre-wrap	overflow-auto;
 }
 
 .logo {
@@ -148,5 +152,9 @@ body {
 }
 
 .navigation-button {
-  @apply p-2 mx-2 text-sm font-bold rounded-lg border border-white hover:bg-orange-500;
+  @apply flex p-2 mx-2 text-sm font-bold rounded-lg border border-white hover:bg-orange-500;
+}
+
+.post-image {
+  @apply rounded-t-xl m-4;
 }
