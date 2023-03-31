@@ -1,18 +1,17 @@
 <li>
     <article class="shadow-xl 500 y-6 border bg-slate-800 border-slate-700 rounded-md">
-        
-            {{ $img := .context.Params.cover }}
+            {{ $img := cond (isset . "img") .img (print .context.RelPermalink "img/cover.webp") }}
     
-            <section class="p-5 block md:flex justify-between">
+            <section class="p-2 block md:flex justify-between">
                 <div>
-                    <a href="{{ .RelPermalink }}">
-                        <h2 class="mt-0 hover:text-orange">{{ .context.Title }}</h2>
+                    <a href="{{ .context.RelPermalink }}">
+                        <h2 class="my-0 text-lg md:text-2xl hover:text-orange">{{ .context.Title }}</h2>
                     </a>
                     <div class="justify-between">
                         <span class="text-gray-300 hidden md:block">{{ .context.Description }}</span>
-                        <div class="mt-3 flex flex-wrap gap-1">
+                        <div class="mt-1 flex flex-wrap gap-1">
                             {{ range .context.Params.tags }}
-                                <a class="tag-small" href="/tags/{{ . }}">
+                                <a class="px-0.5 text-base rounded-full hover:bg-orange-800" href="/tags/{{ . }}">
                                     <span >
                                         #{{ . }}
                                     </span>
@@ -23,11 +22,13 @@
                 </div>
                 <div class="flex flex-col justify-between items-center">
                     <div class="w-32 min-h-32 max-h-auto hidden md:block">
-                        <a href="{{ .RelPermalink }}">
-                            <img class="max-w-full h-auto" src="{{ $img }}" alt="{{ .Title }}"/>
+                        <a href="{{ .context.RelPermalink }}">
+                            <img class="w-full m-0 mb-1 rounded-xl" src="{{ $img }}" alt="{{ .context.Title }}"/>
                         </a>
                     </div>
-                    <span>⏳ Reading time: {{ math.Round (div (countwords .context.Content) 220.0) }} minutes.</span>
+                    {{ if .showReadingTime}}
+                        <span class="hidden md:block">⏳ {{ math.Round (div (countwords .context.Content) 220.0) }} minute read</span>
+                    {{ end }}
                 </div>
             </section>
     </article>

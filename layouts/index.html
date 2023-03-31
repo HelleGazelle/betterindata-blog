@@ -4,7 +4,7 @@
 {{ define "main" }}
 
 <main class="flex justify-center">
-	<div class="max-w-screen-2xl px-3 md:px-8 mt-10 flex flex-wrap gap-5 justify-center">
+	<div class="max-w-screen-2xl px-3 md:px-8 mt-10 flex flex-wrap gap-5 justify-center grow">
 		<div class="shadow-lg p-4 rounded-lg bg-purple-500 w-64 hidden lg:block">
 			<aside>
 				<ul class="space-y-2 flex flex-col">
@@ -18,7 +18,7 @@
 				</ul>
 			</aside>
 		</div>
-		<div class="">
+		<div class="grow">
 			<section class="relative">
 				<div class="animation-container">
 					<h2 class="rw-sentence text-4xl flex flex-col xl:flex-row">
@@ -48,14 +48,32 @@
 				</div>
 			</section>
 		</div>
-		<div class="bg-purple-500 rounded-lg p-4">
+		<div class="bg-purple-500 rounded-lg p-4 grow">
 			<span class="text-2xl break-words font-semibold">
-				Latest Data Lessons
+				Data Projects
 			</span>
 			<div>
 				<ul class="space-y-2">
-				{{ range where .Paginator.Pages "Type" "lessons"}}
-					{{ partial "article" (dict "context" .)}}
+				{{ range .Pages }}
+					{{ range .Pages }}
+						{{ if in .RelPermalink "/projects/"}}
+							{{ partial "article" (dict "context" .Page )}}
+						{{ end}}
+					{{ end}}
+				{{ end}}
+				</ul>
+			</div>
+		</div>
+		<div class="bg-purple-500 rounded-lg p-4 grow">
+			<span class="text-2xl break-words font-semibold">
+				Data Lessons
+			</span>
+			<div>
+				<ul class="space-y-2">
+				{{ range where .Site.Pages "Type" "eq" "lessons"}}
+					{{ if not (in .RelPermalink "/lessons/") }}
+						{{ partial "article" (dict "context" .Page "showReadingTime" true)}}
+					{{ end}}
 				{{ end}}
 				</ul>
 			</div>
