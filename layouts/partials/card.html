@@ -2,7 +2,7 @@
     <a href="{{ .context.RelPermalink }}" class="no-underline">
         {{ $img := cond (isset . "img") .img (print .context.RelPermalink "img/cover.webp") }}
 
-        <img class="w-full m-0 mb-1 rounded-t-xl" src="{{ $img }}" alt="{{ .context.Title }}">
+        <img class="w-full m-0 mb-1 rounded-xl" src="{{ $img }}" alt="{{ .context.Title }}">
 
         <section class="p-5">
                 <h4>{{ .context.Title }}</h4>
