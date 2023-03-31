@@ -158,3 +158,11 @@ body {
 .post-image {
   @apply rounded-t-xl m-4;
 }
+
+.tableOfContents {
+  @apply hidden md:block sticky top-8 ml-4 mb-auto px-3 pb-2 pt-0;
+}
+
+.tableOfContents nav ul li a {
+  @apply text-gray-400 text-sm font-normal hover:text-orange-400 duration-300
+}

@@ -48,14 +48,20 @@
   <h3 class="text-2xl inline-block mt-0">Tech Stack</h3>
   <div class="flex justify-center gap-4">
     {{ range .Params.Stack }}
-        <img class="w-10" src="/img/stack/{{ . }}.svg"/>
+        <img class="w-10" alt="{{ . }}" title="{{ . }}" src="/img/stack/{{ . }}.svg"/>
       {{ end }}
   </div>
 </div>
 
-<article class="max-w-3xl mx-auto">
-  {{ .Content }}
-</article>
+<div class="flex">
+  <article class="max-w-3xl mx-auto">
+    {{ .Content }}
+  </article>
+
+  <aside class="tableOfContents">
+      {{ .TableOfContents }}
+  </aside>
+</div>
 
 <div class="text-center">
   <h2 class="text-4xl pb-2 inline-block mt-24">Chapters</h2>
