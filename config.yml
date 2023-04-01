@@ -1,6 +1,6 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://betterindata.com/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'better in data'
 canonifyURLs: true
 
 sitemap:
@@ -22,9 +22,3 @@ markup:
   highlight:
     style: 'vulcan'
     tabWidth: 4
-
-outputs:
-  home:
-    - html
-    - rss
-    - json
