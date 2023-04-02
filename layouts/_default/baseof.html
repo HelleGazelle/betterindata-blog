@@ -10,22 +10,24 @@
     {{ if .Site.IsServer }}
         {{ $seed := "weqklrjfmnk213409ufasdfhnlk3j4bladsfsl" }}
         {{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
-        {{
-        $style := resources.Get "css/main.css"
-        | resources.PostCSS
-        | resources.ExecuteAsTemplate (printf "tailwind.dev.%s.css" $random) $random
-        }}
+        {{ $style := resources.Get "css/main.css" | resources.PostCSS | resources.ExecuteAsTemplate (printf "tailwind.dev.%s.css" $random) $random }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ else }}
-        {{
-        $style := resources.Get "css/main.css"
-            | resources.PostCSS
-            | resources.Minify
-        }}
+        {{ $style := resources.Get "css/main.css" | resources.PostCSS | resources.Minify }}
         <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     {{ end }}
     <title>{{ .Page.Title }}</title>
     <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0X79RZGP9M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0X79RZGP9M');
+    </script>
 
   </head>
   <body>

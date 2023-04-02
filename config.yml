@@ -17,8 +17,8 @@ markup:
       unsafe: true
       hardWraps: true
     parser:
-      attribute:
-        block: true
+      block: true
+        
   highlight:
     style: 'vulcan'
     tabWidth: 4
