@@ -33,7 +33,7 @@ jobs:
 
       - name: Build project
         run: |
-          zip -r --junk-paths artifact.zip public/*
+          zip -r artifact.zip public/*
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
