@@ -70,6 +70,35 @@ body {
   }
 }
 
+/* table */
+table {
+  @apply w-full text-sm text-left text-gray-400
+}
+
+thead {
+  @apply text-xs text-gray-400 uppercase bg-gray-700
+}
+
+table thead tr th {
+  @apply px-6 py-3
+}
+
+tbody tr:nth-child(odd) {
+  @apply bg-gray-900 border-gray-700
+}
+
+tbody tr:nth-child(even) {
+  @apply bg-gray-800 border-gray-700
+}
+
+tbody tr th {
+  @apply px-6 py-4 font-medium text-white whitespace-nowrap
+}
+
+tbody tr td {
+  @apply px-6 py-4
+}
+
 .tag {
   @apply px-4 py-2 text-base rounded-full border border-white bg-orange-500 hover:bg-orange-800;
 }
