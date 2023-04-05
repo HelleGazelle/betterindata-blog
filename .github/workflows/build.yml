@@ -33,8 +33,7 @@ jobs:
       - run: hugo --minify
 
       - name: Build project
-        run: |
-          zip -r artifact.zip public/*
+        run: cd public && zip -r artifact.zip .
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
