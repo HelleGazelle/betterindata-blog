@@ -15,7 +15,7 @@
       <ul class="grid sm:grid-cols-4 grid-cols-1 grid-rows-4 gap-4">
           {{ range .Pages }}
               <li class="list-none p-0">
-                 {{ partial "card" (dict "context" . "img" .Params.cover) }}
+                 {{ partial "card" (dict "context" .) }}
               </li>
           {{ end }} 
       </ul>
