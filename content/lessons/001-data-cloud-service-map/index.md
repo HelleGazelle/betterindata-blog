@@ -16,6 +16,7 @@ As more and more companies rely on the cloud for data storage, processing, and a
 ## Infrastructure Services
 Infrastructure cloud services in a data context refer to the provision of virtualized computing resources such as servers, storage, and networking through the cloud to support data-related workloads. These services offer scalability, flexibility, and cost-effectiveness for organizations looking to store, process, and analyze large volumes of data.
 <br/>
+<div style="overflow-x:auto">
 
 | Category                   | Amazon Web Services  | Google Cloud Platform                        | Microsoft Azure                                       |
 |----------------------------|----------------------|----------------------------------------------|-------------------------------------------------------|
@@ -28,11 +29,14 @@ Infrastructure cloud services in a data context refer to the provision of virtua
 | Orchestration              | Step Functions, MWAA | Workflows, Composer                          | Data Factory                                          |
 | Compute                    | ECS, EKS, Lamda      | Compute Enginge, App Engine, Cloud Functions | Virtual Machines, AKS, Functions, Container Instances |
 
+</div>
 <br/>
 
 ## Analytics Services
 These services enable organizations to leverage large volumes of data for insights and decision-making, and often offer advanced features such as machine learning and AI capabilities.
 <br/>
+
+<div style="overflow-x:auto">
 
 | Category                       | Amazon Web Services | Google Cloud Platform | Microsoft Azure |
 |--------------------------------|---------------------|-----------------------|-----------------|
@@ -40,11 +44,14 @@ These services enable organizations to leverage large volumes of data for insigh
 | Visualization                  | -                   | Looker Studio         | Power BI        |
 | Log Analysis                   | -                   | Cloud Logging         | Monitor         |
 
+</div>
 <br/>
 
 ## Machine Learning Services
 Machine learning and AI cloud services refer to the use of cloud-based tools and platforms that enable organizations to build and deploy predictive models, natural language processing applications, computer vision solutions, and other AI-driven applications. These services offer scalable, cost-effective, and accessible solutions for organizations to leverage the power of AI and machine learning for data-related tasks.
 <br/>
+
+<div style="overflow-x:auto">
 
 | Category                    | Amazon Web Services | Google Cloud Platform | Microsoft Azure    |
 |-----------------------------|---------------------|-----------------------|--------------------|
@@ -54,3 +61,5 @@ Machine learning and AI cloud services refer to the use of cloud-based tools and
 | Speech                      | Polly, Transcribe   | Speech-to-Text        | Speech to Text     |
 | Natural Language Processing | Comprehend          | Natural Language API  | Coginitve Services |
 | AI Hardware                 | Inferentia          | Cloud TPU             | Virtual Machines   |
+
+</div>
