@@ -1,86 +1,81 @@
-{{ define "header" }}
-  {{ partial "header" }}
-{{ end }}
-{{ define "main" }}
+{{ define "header" }} {{ partial "header" }} {{ end }} {{ define "main" }}
 
 <main class="flex justify-center">
-	<div class="max-w-screen-2xl px-3 md:px-8 mt-10 flex flex-wrap gap-5 justify-center grow">
-		<div class="shadow-lg p-4 rounded-lg bg-purple-500 w-64 hidden lg:block">
-			<aside>
-				<ul class="space-y-2 flex flex-col">
-					{{ range $.Site.Data.main_menu }}
-						<li class="flex">
-							<a class="side-menu" href="{{ .href }}">{{ .emoji }} 
-								<span class="hover:underline">{{ .title }}</span>
-							</a>
-						</li>
-					{{ end}}
-				</ul>
-			</aside>
-		</div>
-		<div class="grow">
-			<section class="relative">
-				<div class="animation-container">
-					<h2 class="rw-sentence text-4xl flex flex-col xl:flex-row">
-						Become better at Data
-						<div class="flip ml-0 xl:ml-2">
-							<div><div>Engineering</div></div>
-							<div><div>Analysis</div></div>
-							<div><div>Visualization</div></div>
-							<div><div>Juggling</div></div>
-						</div>
-					</h2>
-				</div>
-				
-				<div class="max-w-2xl bg-purple-500 rounded-lg p-4">
-					<span class="text-2xl break-words font-semibold">
-						Fuel Your Data Journey with Our Expertise
-					</span>
-					<div>
-						<a href="/learningpath">
-							<button type="button" class="py-2 px-4 rounded-lg my-2 bg-gradient-to-r from-[#FFA3FD] to-[#865DFF] text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 ">
-								🪐 follow our intergalactic learning path
-							</button>
-						</a>
-					</div>
-					
-					<img class="rounded-lg" width="100%" src="/img/homepage.webp"/>
-				</div>
-			</section>
-		</div>
-		<div class="bg-purple-500 rounded-lg p-4 grow">
-			<span class="text-2xl break-words font-semibold">
-				Data Projects
-			</span>
-			<div>
-				<ul class="space-y-2">
-				{{ range .Pages }}
-					{{ range .Pages }}
-						{{ if in .RelPermalink "/projects/"}}
-							{{ partial "article" (dict "context" .Page )}}
-						{{ end}}
-					{{ end}}
-				{{ end}}
-				</ul>
-			</div>
-		</div>
-		<div class="bg-purple-500 rounded-lg p-4 grow">
-			<span class="text-2xl break-words font-semibold">
-				Data Lessons
-			</span>
-			<div>
-				<ul class="space-y-2">
-				{{ range where .Site.Pages "Type" "eq" "lessons"}}
-					{{ if not (in .RelPermalink "/lessons/") }}
-						{{ partial "article" (dict "context" .Page "showReadingTime" true)}}
-					{{ end}}
-				{{ end}}
-				</ul>
-			</div>
-		</div>
-	</div>
+  <div
+    class="max-w-screen-2xl px-3 md:px-8 mt-10 flex flex-wrap gap-5 justify-center grow"
+  >
+    <div class="shadow-lg p-4 rounded-lg bg-purple-500 w-64 hidden lg:block">
+      <aside>
+        <ul class="space-y-2 flex flex-col">
+          {{ range $.Site.Data.main_menu }}
+          <li class="flex">
+            <a class="side-menu" href="{{ .href }}"
+              >{{ .emoji }}
+              <span class="hover:underline">{{ .title }}</span>
+            </a>
+          </li>
+          {{ end}}
+        </ul>
+      </aside>
+    </div>
+    <div class="grow">
+      <section class="relative">
+        <div class="animation-container">
+          <h2 class="rw-sentence text-4xl flex flex-col xl:flex-row">
+            Become better at Data
+            <div class="flip ml-0 xl:ml-2">
+              <div><div>Engineering</div></div>
+              <div><div>Analysis</div></div>
+              <div><div>Visualization</div></div>
+              <div><div>Juggling</div></div>
+            </div>
+          </h2>
+        </div>
+
+        <div class="max-w-2xl bg-purple-500 rounded-lg p-4">
+          <span class="text-2xl break-words font-semibold">
+            Fuel Your Data Journey with Our Expertise
+          </span>
+          <div>
+            <a href="/learningpath">
+              <button
+                type="button"
+                class="py-2 px-4 rounded-lg my-2 bg-gradient-to-r from-[#FFA3FD] to-[#865DFF] text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2"
+              >
+                🪐 follow our intergalactic learning path
+              </button>
+            </a>
+          </div>
+
+          <img
+            class="rounded-lg"
+            alt="banner"
+            width="100%"
+            src="/img/homepage.webp"
+          />
+        </div>
+      </section>
+    </div>
+    <div class="bg-purple-500 rounded-lg p-4 grow">
+      <span class="text-2xl break-words font-semibold"> Data Projects </span>
+      <div>
+        <ul class="space-y-2">
+          {{ range .Pages }} {{ range .Pages }} {{ if in .RelPermalink
+          "/projects/"}} {{ partial "article" (dict "context" .Page )}} {{ end}}
+          {{ end}} {{ end}}
+        </ul>
+      </div>
+    </div>
+    <div class="bg-purple-500 rounded-lg p-4 grow">
+      <span class="text-2xl break-words font-semibold"> Data Lessons </span>
+      <div>
+        <ul class="space-y-2">
+          {{ range where .Site.Pages "Type" "eq" "lessons"}} {{ if not (in
+          .RelPermalink "/lessons/") }} {{ partial "article" (dict "context"
+          .Page "showReadingTime" true)}} {{ end}} {{ end}}
+        </ul>
+      </div>
+    </div>
+  </div>
 </main>
-{{ end }}
-{{ define "footer" }}
-  {{ partial "footer" }}
-{{ end }}
+{{ end }} {{ define "footer" }} {{ partial "footer" }} {{ end }}
