@@ -1,34 +1,26 @@
-{{ define "header" }}
-  {{ partial "header" }}
-{{ end }}
-
-{{ define "main" }}
+{{ define "header" }} {{ partial "header" }} {{ end }} {{ define "main" }}
 
 <main class="container">
   <section id="main">
     <!-- Tags -->
     <div class="flex flex-col items-center">
-      <img class="w-full rounded-lg mt-2" src="{{ .Params.cover }}" />
+      <img class="max-h-80 rounded-lg mt-2" src="{{ .Params.cover }}" />
       <h1 id="title">{{ .Title }}</h1>
-        <div class="flex-reverse m-2.5">
+      <div class="flex-reverse m-2.5">
         {{ range .Params.tags }}
-            <a href="/tags/{{ . }}">
-              <button class="tag">#{{ . }}</button>
-            </a>
+        <a href="/tags/{{ . }}">
+          <button class="tag">#{{ . }}</button>
+        </a>
         {{ end }}
       </div>
     </div>
-      <div class="text-xl prose dark:prose-invert pt-1 mx-auto px-3 md:px-8 min-w-0 max-w-none w-full"> 
-        <!-- Author -->
-        {{ partial "author" (dict "context" .) }}
-        <article>
-          {{ .Content }}
-        </article>
+    <div
+      class="text-xl prose dark:prose-invert pt-1 mx-auto px-3 md:px-8 min-w-0 max-w-none w-full"
+    >
+      <!-- Author -->
+      {{ partial "author" (dict "context" .) }}
+      <article>{{ .Content }}</article>
     </div>
   </section>
 </main>
-{{ end }}
-
-{{ define "footer" }}
-  {{ partial "footer" }}
-{{ end }}
+{{ end }} {{ define "footer" }} {{ partial "footer" }} {{ end }}
