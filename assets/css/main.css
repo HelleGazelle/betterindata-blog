@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-      font-family: Proxima Nova, system-ui, sans-serif;
-    }
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+  }
 }
 
 .code {
@@ -13,7 +13,7 @@
 }
 
 .codeblock {
-  @apply border border-white rounded-lg p-3 whitespace-pre-wrap	overflow-auto;
+  @apply border border-white rounded-lg p-3 whitespace-pre-wrap	overflow-auto my-3;
 }
 
 .logo {
@@ -28,6 +28,10 @@ body {
 
 .container {
   @apply max-w-screen-2xl mx-auto px-3 md:px-8;
+}
+
+article {
+  @apply pt-4;
 }
 
 @layer base {
@@ -72,31 +76,31 @@ body {
 
 /* table */
 table {
-  @apply w-full text-sm text-left text-gray-400
+  @apply w-full text-sm text-left text-gray-400;
 }
 
 thead {
-  @apply text-xs text-gray-400 uppercase bg-gray-700
+  @apply text-xs text-gray-400 uppercase bg-gray-700;
 }
 
 table thead tr th {
-  @apply px-6 py-3
+  @apply px-6 py-3;
 }
 
 tbody tr:nth-child(odd) {
-  @apply bg-gray-900 border-gray-700
+  @apply bg-gray-900 border-gray-700;
 }
 
 tbody tr:nth-child(even) {
-  @apply bg-gray-800 border-gray-700
+  @apply bg-gray-800 border-gray-700;
 }
 
 tbody tr th {
-  @apply px-6 py-4 font-medium text-white whitespace-nowrap
+  @apply px-6 py-4 font-medium text-white whitespace-nowrap;
 }
 
 tbody tr td {
-  @apply px-6 py-4
+  @apply px-6 py-4;
 }
 
 .tag {
@@ -116,14 +120,14 @@ tbody tr td {
 }
 
 .flip {
-  height:50px;
-  overflow:hidden;
+  height: 50px;
+  overflow: hidden;
 }
 
 .flip > div > div {
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
 }
 
 .flip div:first-child {
@@ -131,32 +135,53 @@ tbody tr td {
 }
 
 .flip div div {
-  color: #19D3DA;
+  color: #19d3da;
 }
 .flip div:nth-child(1) div {
   color: orange;
 }
 .flip div:nth-child(2) div {
-  color:#FFA3FD;
+  color: #ffa3fd;
 }
 .flip div:nth-child(3) div {
-  color:#F0EB8D;
+  color: #f0eb8d;
 }
 
 @keyframes show {
-  0% {margin-top:-360px;}
-  5% {margin-top:-270px;}
-  25% {margin-top:-270px;}
-  30% {margin-top:-180px;}
-  50% {margin-top:-180px;}
-  55% {margin-top:-90px;}
-  75% {margin-top:-90px;}
-  80% {margin-top:0px;}
-  95% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-360px;}
+  0% {
+    margin-top: -360px;
+  }
+  5% {
+    margin-top: -270px;
+  }
+  25% {
+    margin-top: -270px;
+  }
+  30% {
+    margin-top: -180px;
+  }
+  50% {
+    margin-top: -180px;
+  }
+  55% {
+    margin-top: -90px;
+  }
+  75% {
+    margin-top: -90px;
+  }
+  80% {
+    margin-top: 0px;
+  }
+  95% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -360px;
+  }
 }
-
 
 /* tabs */
 .tablink {
@@ -193,5 +218,5 @@ tbody tr td {
 }
 
 .tableOfContents nav ul li a {
-  @apply text-gray-400 text-sm font-normal hover:text-orange-400 duration-300
+  @apply text-gray-400 text-sm font-normal hover:text-orange-400 duration-300;
 }
