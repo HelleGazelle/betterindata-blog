@@ -52,3 +52,7 @@ Monitor your Cloud Run Job for any issues and troubleshoot as necessary using th
 ## Conclusion
 
 In just 10 minutes, we've shown you how to build a data pipeline using Google Cloud Run. With its ease of use and scalability, Cloud Run is an excellent choice for quickly deploying containerized applications. Whether you're working with a small dataset or a large one, Cloud Run can handle the job. With this tutorial, you have the tools to build your own data pipelines quickly and easily. So what are you waiting for? Give it a try and see how Cloud Run can streamline your data processing workflow.
+
+## Code
+
+Find the the pipeline code in this **[GitHub Repository](https://github.com/HelleGazelle/blog-projects/tree/master/003-cloud-run)**
