@@ -2,31 +2,37 @@
   <div
     class="px-2 bg-purple-500 border-b-2 border-slate-600 w-full h-16 flex justify-between items-center"
   >
-    <a href="/">
+    <a href="/" aria-label="Go back to homepage">
       <div class="hidden md:flex logo">
         <div class="w-10 h-10 mr-2 p-1 bg-white rounded-full">
           <img class="p-0.5" alt="logo" src="/img/logo.svg" />
         </div>
-        <button>betterindata</button>
+        <button title="homepage logo" aria-label="homepage logo">
+          betterindata
+        </button>
       </div>
-      <button class="logo md:hidden">
+      <button
+        class="logo md:hidden"
+        title="homepage logo"
+        aria-label="homepage logo"
+      >
         <div class="w-10 h-10 mr-2 p-1 bg-white rounded-full">
-          <img class="w-8" src="/img/logo.svg" />
+          <img alt="logo" width="32px" height="32px" src="/img/logo.svg" />
         </div>
       </button>
     </a>
     <div class="flex gap-8">
-      <a href="/lessons">
+      <a href="/lessons" aria-label="Visit the lessons overview">
         <span class="text-base md:text-xl font-bold hover:text-orange-400"
           >Lessons</span
         >
       </a>
-      <a href="/projects">
+      <a href="/projects" aria-label="Visit the projects overview">
         <span class="text-base md:text-xl font-bold hover:text-orange-400"
           >Projects</span
         >
       </a>
-      <a href="/learningpath">
+      <a href="/learningpath" aria-label="Visit the learning path">
         <span class="text-base md:text-xl font-bold hover:text-orange-400"
           >Learning Path</span
         >

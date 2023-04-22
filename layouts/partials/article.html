@@ -1,35 +1,47 @@
 <li>
-    <article class="shadow-xl 500 y-6 border bg-slate-800 border-slate-700 rounded-md">
-            {{ $img := cond (isset . "img") .img (print .context.RelPermalink "img/cover.webp") }}
-    
-            <section class="p-2 block md:flex justify-between">
-                <div>
-                    <a href="{{ .context.RelPermalink }}">
-                        <h2 class="my-0 text-lg md:text-2xl hover:text-orange">{{ .context.Title }}</h2>
-                    </a>
-                    <div class="justify-between">
-                        <span class="text-gray-300 hidden md:block">{{ .context.Description }}</span>
-                        <div class="mt-1 flex flex-wrap gap-1">
-                            {{ range .context.Params.tags }}
-                                <a class="px-0.5 text-base rounded-full hover:bg-orange-800" href="/tags/{{ . }}">
-                                    <span >
-                                        #{{ . }}
-                                    </span>
-                                </a>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col justify-between items-center">
-                    <div class="w-32 min-h-32 max-h-auto hidden md:block">
-                        <a href="{{ .context.RelPermalink }}">
-                            <img class="w-full m-0 mb-1 rounded-xl" src="{{ $img }}" alt="{{ .context.Title }}"/>
-                        </a>
-                    </div>
-                    {{ if .showReadingTime}}
-                        <span class="hidden md:block">⏳ {{ math.Round (div (countwords .context.Content) 220.0) }} minute read</span>
-                    {{ end }}
-                </div>
-            </section>
-    </article>
+  <article
+    class="shadow-xl 500 y-6 border bg-slate-800 border-slate-700 rounded-md"
+  >
+    {{ $img := cond (isset . "img") .img (print .context.RelPermalink
+    "img/cover.webp") }}
+
+    <section class="p-2 block md:flex justify-between">
+      <div>
+        <a href="{{ .context.RelPermalink }}">
+          <h2 class="my-0 text-lg md:text-2xl hover:text-orange">
+            {{ .context.Title }}
+          </h2>
+        </a>
+        <div class="justify-between">
+          <span class="text-gray-300 hidden md:block"
+            >{{ .context.Description }}</span
+          >
+          <div class="mt-1 flex flex-wrap gap-1">
+            {{ range .context.Params.tags }}
+            <a class="tag text-sm px-0.5" href="/tags/{{ . }}">
+              <span> #{{ . }} </span>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-between items-center">
+        <div class="w-32 min-h-32 max-h-auto hidden md:block">
+          <a href="{{ .context.RelPermalink }}">
+            <img
+              class="w-full m-0 mb-1 rounded-xl"
+              src="{{ $img }}"
+              alt="{{ .context.Title }}"
+            />
+          </a>
+        </div>
+        {{ if .showReadingTime}}
+        <span class="hidden md:block"
+          >⏳ {{ math.Round (div (countwords .context.Content) 220.0) }} minute
+          read</span
+        >
+        {{ end }}
+      </div>
+    </section>
+  </article>
 </li>
