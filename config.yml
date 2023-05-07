@@ -1,6 +1,6 @@
-baseURL: 'https://betterindata.com/'
-languageCode: 'en-us'
-title: 'better in data'
+baseURL: "https://betterindata.com/"
+languageCode: "en-us"
+title: "better in data"
 canonifyURLs: true
 
 sitemap:
@@ -8,6 +8,7 @@ sitemap:
 
 permalinks:
   lessons: "/:year/:month/:slug/"
+  pictures: "/:year/:month/:slug/"
   projects: "/:year/:month/:slug/"
   page: "/:slug/"
 
@@ -18,7 +19,7 @@ markup:
       hardWraps: true
     parser:
       block: true
-        
+
   highlight:
-    style: 'vulcan'
+    style: "vulcan"
     tabWidth: 4

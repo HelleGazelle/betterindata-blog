@@ -1,28 +1,32 @@
 [
-    {
-        "title": "Homepage",
-        "emoji": "🏚️",
-        "href": "/"
-    },
-    {
-        "title": "Projects",
-        "emoji": "🕹️",
-        "href": "/projects"
-    },
-    {
-        "title": "Lessons",
-        "emoji": "👩‍🏫",
-        "href": "/lessons"
-    },
-    {
-        "title": "Tags",
-        "emoji": "#️⃣",
-        "href": "/tags"
-    },
-    {
-        "title": "About",
-        "emoji": "👨‍🔧",
-        "href": "/about"
-    }
+  {
+    "title": "Homepage",
+    "emoji": "🏚️",
+    "href": "/"
+  },
+  {
+    "title": "Projects",
+    "emoji": "🕹️",
+    "href": "/projects"
+  },
+  {
+    "title": "Pictures",
+    "emoji": "🖼️",
+    "href": "/pictures"
+  },
+  {
+    "title": "Lessons",
+    "emoji": "👩‍🏫",
+    "href": "/lessons"
+  },
+  {
+    "title": "Tags",
+    "emoji": "#️⃣",
+    "href": "/tags"
+  },
+  {
+    "title": "About",
+    "emoji": "👨‍🔧",
+    "href": "/about"
+  }
 ]
-        

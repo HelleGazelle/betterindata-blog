@@ -1,0 +1,177 @@
+<mxfile host="Electron" modified="2023-05-07T10:27:40.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="GvBqojQgt5jBNjx4w2JP" version="21.2.8" type="device">
+  <diagram name="Seite-1" id="ZNPhPDqguoJOH4dVYxga">
+    <mxGraphModel dx="1057" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="paI4sqE20As_FP97wRHv-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;strokeColor=#5D3891;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="40" width="810" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#5D3891;fontStyle=0;fontSize=19;fillColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="120" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-2" value="betterindata.com" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSize=19;fontStyle=0;strokeColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;" parent="1" vertex="1">
+          <mxGeometry x="539" y="20" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiBzdHlsZT0iZmlsbC1ydWxlOm5vbnplcm87Y2xpcC1ydWxlOmV2ZW5vZGQ7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kOyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBoZWlnaHQ9IjEwMCUiPiYjeGE7PGRlZnMvPiYjeGE7PGcgdmlzaWJpbGl0eT0iaGlkZGVuIiBpZD0iYWx0Ij4mI3hhOzxwYXRoIHN0cm9rZT0ibm9uZSIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSIjZmZmZmZmIiBkPSJNNjAwIDYwTDk2MCA0MjBMNTEwIDg3MEwxNTAgNTEwTDYwMCA2MFoiLz4mI3hhOzxwYXRoIHN0cm9rZT0ibm9uZSIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSIjZTM4NGZmIiBkPSJNNjAwIDYwTDk2MCA0MjBMOTYwIDYwTDYwMCA2MFoiLz4mI3hhOzxwYXRoIHN0cm9rZT0ibm9uZSIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSIjMTkxODI1IiBkPSJNMTUwIDUxMEw1MTAgODcwTDMzMCA4NzBMMTUwIDY5MEwxNTAgNTEwWiIvPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiNmYWZmYTMiIGQ9Ik0xNTAgNjkwTDMzMCA4NzBMNjAgOTYwTDE1MCA2OTBaIi8+JiN4YTs8cGF0aCBzdHJva2U9Im5vbmUiIG9wYWNpdHk9IjEiIGZpbGwtcnVsZT0ibm9uemVybyIgZmlsbD0iIzg2NWRmZiIgZD0iTTE1MCA1MTBMNjAgNDIwTDI0MCAyNDBMNDIwIDI0MEwxNTAgNTEwWiIvPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiM4NjVkZmYiIGQ9Ik01MTAgODcwTDYwMCA5NjBMNzgwIDc4MEw3ODAgNjAwTDUxMCA4NzBaIi8+JiN4YTs8cGF0aCBzdHJva2Utd2lkdGg9IjExLjgzNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZT0iIzAwMDAwMCIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSIjYzFiNWM0IiBkPSJNNTEwIDQyMEM1MTAgMzcwLjI5NCA1NTAuMjk0IDMzMCA2MDAgMzMwQzY0OS43MDYgMzMwIDY5MCAzNzAuMjk0IDY5MCA0MjBDNjkwIDQ2OS43MDYgNjQ5LjcwNiA1MTAgNjAwIDUxMEM1NTAuMjk0IDUxMCA1MTAgNDY5LjcwNiA1MTAgNDIwWiIvPiYjeGE7PHBhdGggc3Ryb2tlLXdpZHRoPSIxMS44MzUiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2U9IiMwMDAwMDAiIG9wYWNpdHk9IjEiIGZpbGw9Im5vbmUiIGQ9Ik02MCA5NjBMMTUwIDY5MEwxNTAgNTEwTDYwIDQyMEwyNDAgMjQwTDQyMCAyNDBMNjAwIDYwTDk2MCA2MEw5NjAgNDIwTDc4MCA2MDBMNzgwIDc4MEw2MDAgOTYwTDUxMCA4NzBMMzMwIDg3MEw2MCA5NjBaIi8+JiN4YTs8cGF0aCBzdHJva2Utd2lkdGg9IjExLjgzNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZT0iIzAwMDAwMCIgb3BhY2l0eT0iMSIgZmlsbD0ibm9uZSIgZD0iTTQyMCAyNDBMMTUwIDUxMEw1MTAgODcwTDc4MCA2MDAiLz4mI3hhOzwvZz4mI3hhOzxnIGlkPSJuZXUiPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiNmZmZmZmYiIGQ9Ik02NjAgNjBMOTYwIDM2MEw0ODAgODQwTDE4MCA1NDBMNjYwIDYwWiIvPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiM1ZDM4OTEiIGQ9Ik02NjAgNjBMOTYwIDM2MEw5NjAgNjBMNjYwIDYwWiIvPiYjeGE7PHBhdGggc3Ryb2tlLXdpZHRoPSIyOC45NTQzIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZT0iIzVkMzg5MSIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSIjNWQzODkxIiBkPSJNMzYwIDY2MEw2MDAgNDIwIi8+JiN4YTs8cGF0aCBzdHJva2U9Im5vbmUiIG9wYWNpdHk9IjEiIGZpbGwtcnVsZT0ibm9uemVybyIgZmlsbD0iIzE5MTgyNSIgZD0iTTE4MCA1NDBMNDgwIDg0MEwzNjAgODQwTDE4MCA2NjBMMTgwIDU0MFoiLz4mI3hhOzxwYXRoIHN0cm9rZT0ibm9uZSIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJub256ZXJvIiBmaWxsPSIjZjk5NDE3IiBkPSJNMTgwIDY2MEwzNjAgODQwTDI3MCA5MzBMNjAgOTYwTDkwIDc1MEwxODAgNjYwWiIvPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiM1ZDM4OTEiIGQ9Ik0xODAgNTQwTDkwIDQ1MEwyNzAgMjcwTDQ1MCAyNzBMNDgwIDI0MEwxODAgNTQwWiIvPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiM1ZDM4OTEiIGQ9Ik00ODAgODQ2LjkyM0w1NjEgOTMwTDc1MCA3NTBMNzUwIDU3MEw0ODAgODQ2LjkyM1oiLz4mI3hhOzxwYXRoIHN0cm9rZS13aWR0aD0iMTEuODM1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlPSIjMDAwMDAwIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiNjMWI1YzQiIGQ9Ik02MzAgMzE1QzYzMCAyNzMuNTc5IDY2My41NzkgMjQwIDcwNSAyNDBDNzQ2LjQyMSAyNDAgNzgwIDI3My41NzkgNzgwIDMxNUM3ODAgMzU2LjQyMSA3NDYuNDIxIDM5MCA3MDUgMzkwQzY2My41NzkgMzkwIDYzMCAzNTYuNDIxIDYzMCAzMTVaIi8+JiN4YTs8cGF0aCBzdHJva2Utd2lkdGg9IjExLjgzNSIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZT0iIzAwMDAwMCIgb3BhY2l0eT0iMSIgZmlsbD0ibm9uZSIgZD0iTTYwIDk2MEw5MCA3NTBMMTgwIDY2MEwxODAgNTQwTDkwIDQ1MEwyNzAgMjcwTDQ1MCAyNzBMNjYwIDYwTDk2MCA2MEw5NjAgMzYwTDc1MCA1NzBMNzUwIDc1MEw1NzAgOTMwTDQ4MCA4NDBMMzYwIDg0MEwyNzAgOTMwTDYwIDk2MFoiLz4mI3hhOzxwYXRoIHN0cm9rZS13aWR0aD0iMTEuODM1IiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlPSIjMDAwMDAwIiBvcGFjaXR5PSIxIiBmaWxsPSJub25lIiBkPSJNNDgwIDI0MEwxODAgNTQwTDQ4MCA4NDBMNzgwIDU0MCIvPiYjeGE7PHBhdGggc3Ryb2tlPSJub25lIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9Im5vbnplcm8iIGZpbGw9IiNmOWUxMTciIGQ9Ik0yMTAgNjkwTDMzMCA4MTBMMjEwIDg3MEwxNTAgODcwTDE1MCA4MTBMMjEwIDY5MFoiLz4mI3hhOzwvZz4mI3hhOzwvc3ZnPg==;imageBackground=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="25" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-4" value="Apache Airflow" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSize=27;fontStyle=0;strokeColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;" parent="1" vertex="1">
+          <mxGeometry x="150" y="10" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-6" value="Apache Airflow is a tool for scheduling, developing, monitoring data engineering pipelines." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#000000;fontStyle=0;fontSize=14;fillColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="50" y="120" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-7" value="👍 When to use" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#5D3891;fontStyle=0;fontSize=19;fillColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="50" y="310" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-8" value="- automatically schedule, orchestrate&amp;nbsp; and monitor ETL batch pipelines&lt;br&gt;- when you need a single UI as cockpit for all your pipelines&lt;br&gt;- working on workflows as a team as everything is stored as code&lt;br&gt;- developing pipelines that need to be run on a elastic compute backend such as k8s. Airflow can operate with Kubernetes natively" style="rounded=0;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#000000;fontStyle=0;fontSize=14;fillColor=none;align=left;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="340" width="370" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-9" value="👎 When not to use" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="310" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-10" value="- processing data. Airflow itself is only meant to manage pipelines that process data&lt;br style=&quot;font-size: 12px;&quot;&gt;- teams without programming skills as the workflows are managed in code and cannot be made by clicking&lt;br style=&quot;font-size: 12px;&quot;&gt;- stream data processing. Airflow is used for batch pipelines" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#000000;fontStyle=0;fontSize=14;fillColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="340" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-11" value="👪&amp;nbsp;Potential users" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#5D3891;fontStyle=0;fontSize=19;fillColor=none;align=left;" parent="1" vertex="1">
+          <mxGeometry x="50" y="190" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;jumpSize=4;startSize=5;endSize=5;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=default;" parent="1" source="paI4sqE20As_FP97wRHv-15" target="paI4sqE20As_FP97wRHv-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-15" value="load data to s3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fillColor=none;fontColor=#000000;fontSize=10;strokeColor=#5D3891;strokeWidth=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="459" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-20" value="error" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;exitX=1;exitY=0.75;exitDx=0;exitDy=0;endArrow=blockThin;endFill=1;startSize=5;endSize=5;strokeColor=default;" parent="1" source="paI4sqE20As_FP97wRHv-16" target="paI4sqE20As_FP97wRHv-19" edge="1">
+          <mxGeometry x="0.0045" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-22" value="success" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=10;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;endArrow=blockThin;endFill=1;startSize=5;endSize=5;strokeColor=default;" parent="1" source="paI4sqE20As_FP97wRHv-16" target="paI4sqE20As_FP97wRHv-21" edge="1">
+          <mxGeometry x="-0.1811" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-16" value="execute data quality checks" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fillColor=none;fontColor=#000000;fontSize=10;strokeColor=#5D3891;strokeWidth=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="553" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-19" value="send report" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fillColor=none;fontColor=#000000;fontSize=10;strokeColor=#5D3891;strokeWidth=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="689" y="210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-21" value="ingest data into warehouse" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fillColor=none;fontColor=#000000;fontSize=10;strokeColor=#5D3891;strokeWidth=1;shadow=0;glass=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="689" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-24" value="📓 DAG - a runbook for you tasks" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="90" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-28" value="1️⃣ In one sentence" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-29" value="👪&amp;nbsp;Potential users" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="190" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-30" value="👍 When to use" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="310" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-36" value="🏛️&amp;nbsp;Architecture" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=center;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="520" width="730" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-38" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;strokeColor=#5D3891;" parent="1" vertex="1">
+          <mxGeometry x="40" y="643.5" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="paI4sqE20As_FP97wRHv-66" target="paI4sqE20As_FP97wRHv-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="620" />
+              <mxPoint x="440" y="620" />
+            </Array>
+            <mxPoint x="280.02857142857135" y="648.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="paI4sqE20As_FP97wRHv-66" target="paI4sqE20As_FP97wRHv-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="711" />
+              <mxPoint x="440" y="711" />
+            </Array>
+            <mxPoint x="280.02857142857135" y="678.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-55" value="DAG directory" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="260" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-56" value="metadata db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Lilita One;fillColor=none;fontColor=#000000;rounded=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#5D3891;" parent="1" vertex="1">
+          <mxGeometry x="260" y="560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="paI4sqE20As_FP97wRHv-70" target="paI4sqE20As_FP97wRHv-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="459" y="676" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0uq4zpATd7kKHAAc8Uzk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="paI4sqE20As_FP97wRHv-65" target="paI4sqE20As_FP97wRHv-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-65" value="UI" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="70" y="646.5" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-66" value="web server" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="140" y="646.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-68" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="260" y="632" width="80" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-69" value="scheduler" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="paI4sqE20As_FP97wRHv-68" vertex="1">
+          <mxGeometry width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-70" value="executor" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=default;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;dashed=1;sketch=1;curveFitting=1;jiggle=2;" parent="paI4sqE20As_FP97wRHv-68" vertex="1">
+          <mxGeometry y="29" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="420" y="661" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=default;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="410" y="653.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="paI4sqE20As_FP97wRHv-47" value="workers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=default;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="400" y="646.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-1" value="🔄 Alternatives" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#FFFFFF;fontStyle=0;fontSize=19;fillColor=#5D3891;align=left;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="49" y="810" width="371" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-3" value="Dagster" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-4" value="Prefect" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-5" value="Keboola" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="250" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-6" value="Luigi" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="340" y="850" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-7" value="Data Engineers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="50" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-8" value="DevOps Engineers" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="300" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_QXOh6lpmUbz2tRzDp-9" value="Data Scientists" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=Lilita One;align=center;fillColor=none;strokeColor=#5D3891;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;fontStyle=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="230" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0uq4zpATd7kKHAAc8Uzk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;" edge="1" parent="1" source="paI4sqE20As_FP97wRHv-69" target="paI4sqE20As_FP97wRHv-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0uq4zpATd7kKHAAc8Uzk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="paI4sqE20As_FP97wRHv-70" target="paI4sqE20As_FP97wRHv-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0uq4zpATd7kKHAAc8Uzk-7" value="- Webserver: The UI for engineers&lt;br&gt;- Scheduler: Schedules jobs and decides which tasks need to be run when and where&lt;br&gt;- MetadataDB: A database where DAG and task metadata is stored e.g. Postgres or MySQL&lt;br&gt;- Executor: Responsible for executing tasks within the available computing resources" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Lilita One;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DLilita%2BOne;strokeColor=none;fontColor=#000000;fontStyle=0;fontSize=14;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="574.25" width="249" height="188.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

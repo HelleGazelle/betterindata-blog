@@ -62,6 +62,16 @@
       </section>
     </div>
     <div class="bg-purple-500 rounded-lg p-4 grow">
+      <span class="text-2xl break-words font-semibold"> Data Pictures </span>
+      <div>
+        <ul class="space-y-2">
+          {{ range where .Site.Pages "Type" "eq" "pictures"}} {{ if not (in
+          .RelPermalink "/pictures/") }} {{ partial "picturecard" (dict
+          "context" .Page)}} {{ end}} {{ end}}
+        </ul>
+      </div>
+    </div>
+    <div class="bg-purple-500 rounded-lg p-4 grow">
       <span class="text-2xl break-words font-semibold"> Data Projects </span>
       <div>
         <ul class="space-y-2">

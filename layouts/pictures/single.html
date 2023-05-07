@@ -1,0 +1,19 @@
+{{ define "header" }} {{ partial "header" }} {{ end }} {{ define "main" }}
+
+<main class="container">
+  <section id="main" class="flex flex-col items-center">
+    <h1 id="title">{{ .Title }}</h1>
+    <h2 id="subtitle" class="text-gray-400 font-medium mt-0">
+      {{ .Description }}
+    </h2>
+    <!-- Author -->
+    <div class="my-2">{{ partial "author" (dict "context" .) }}</div>
+    <a href="{{ .Params.picture }}" target="_blank">
+      <img
+        src="{{ .Params.picture }}"
+        class="bg-white p-2 rounded-3xl border"
+      />
+    </a>
+  </section>
+</main>
+{{ end }} {{ define "footer" }} {{ partial "footer" }} {{ end }}
