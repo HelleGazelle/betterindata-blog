@@ -1,16 +1,9 @@
 baseURL: "https://betterindata.com/"
 languageCode: "en-us"
-title: "better in data"
-canonifyURLs: true
+title: "betterindata"
 
 sitemap:
   changefreq: weekly
-
-permalinks:
-  lessons: "/:year/:month/:slug/"
-  pictures: "/:year/:month/:slug/"
-  projects: "/:year/:month/:slug/"
-  page: "/:slug/"
 
 markup:
   goldmark:

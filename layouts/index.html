@@ -65,7 +65,7 @@
       <span class="text-2xl break-words font-semibold"> Data Pictures </span>
       <div>
         <ul class="space-y-2">
-          {{ range where .Site.Pages "Type" "eq" "pictures"}} {{ if not (in
+          {{ range where .Site.Pages "Type" "eq" "pictures"}} {{ if not (eq
           .RelPermalink "/pictures/") }} {{ partial "picturecard" (dict
           "context" .Page)}} {{ end}} {{ end}}
         </ul>
@@ -75,7 +75,7 @@
       <span class="text-2xl break-words font-semibold"> Data Projects </span>
       <div>
         <ul class="space-y-2">
-          {{ range .Pages }} {{ range .Pages }} {{ if in .RelPermalink
+          {{ range .Pages }} {{ range .Pages }} {{ if eq .RelPermalink
           "/projects/"}} {{ partial "article" (dict "context" .Page )}} {{ end}}
           {{ end}} {{ end}}
         </ul>
@@ -85,7 +85,7 @@
       <span class="text-2xl break-words font-semibold"> Data Lessons </span>
       <div>
         <ul class="space-y-2">
-          {{ range where .Site.Pages "Type" "eq" "lessons"}} {{ if not (in
+          {{ range where .Site.Pages "Type" "eq" "lessons"}} {{ if not (eq
           .RelPermalink "/lessons/") }} {{ partial "article" (dict "context"
           .Page "showReadingTime" true)}} {{ end}} {{ end}}
         </ul>
