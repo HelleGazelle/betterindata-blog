@@ -75,7 +75,7 @@
       <span class="text-2xl break-words font-semibold"> Data Projects </span>
       <div>
         <ul class="space-y-2">
-          {{ range .Pages }} {{ range .Pages }} {{ if eq .RelPermalink
+          {{ range .Pages }} {{ range .Pages }} {{ if in .RelPermalink
           "/projects/"}} {{ partial "article" (dict "context" .Page )}} {{ end}}
           {{ end}} {{ end}}
         </ul>
