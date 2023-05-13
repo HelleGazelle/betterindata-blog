@@ -6,7 +6,7 @@ cover: img/cover.webp
 picture: img/apache-airflow.png
 tags:
   - pipeline
-  - batch processing
+  - batch-processing
 date: 2023-05-07
 author: Alois Niedermaier
 ---

@@ -6,7 +6,7 @@ cover: img/cover.webp
 tags:
   - pipeline
   - gcp
-  - cloud run
+  - cloud-run
 date: 2023-04-19
 author: Alois Niedermaier
 stack:

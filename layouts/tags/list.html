@@ -1,50 +1,37 @@
-{{ define "header" }}
-  {{ partial "header" }}
-{{ end }}
-{{ define "main" }}
+{{ define "header" }} {{ partial "header" }} {{ end }} {{ define "main" }} {{ if
+eq .CurrentSection.RelPermalink "/tags/" }}
 
-    {{ if eq .CurrentSection.RelPermalink "/tags/" }}
+<main class="prose dark:prose-invert px-10 container">
+  <header class="text-center mb-8 mt-20">
+    <h1 class="text-5xl text-white mb-1 font-extrabold">
+      #{{ .Params.title }}
+    </h1>
+  </header>
 
-    <main class="prose dark:prose-invert px-10 container">
-      <header class="text-center mb-8 mt-20">
-        <h1 class="text-5xl text-white mb-1 font-extrabold">#{{ .Params.title }}</h1>
-      </header>
-    
-      <div class="h-3"></div>
+  <div class="h-3"></div>
 
-      <ul class="grid sm:grid-cols-4 grid-cols-1 grid-rows-4 gap-4">
-          {{ range .Pages }}
-              <li class="list-none p-0">
-                 {{ partial "card" (dict "context" .) }}
-              </li>
-          {{ end }} 
-      </ul>
-  </main>
+  <ul class="grid sm:grid-cols-4 grid-cols-1 grid-rows-4 gap-4">
+    {{ range .Pages }}
+    <li class="list-none p-0">{{ partial "card" (dict "context" .) }}</li>
+    {{ end }}
+  </ul>
+</main>
 
-    {{ else }}
+{{ else }} {{/* Layout for /tags */}}
+<main class="prose dark:prose-invert px-10 container">
+  <header class="text-center mb-8 mt-20">
+    <h1 class="text-5xl text-white mb-1 font-extrabold">Tags</h1>
+  </header>
 
-    {{/*  Layout for /tags  */}}
-    <main class="prose dark:prose-invert px-10 container">
-      <header class="text-center mb-8 mt-20">
-        <h1 class="text-5xl text-white mb-1 font-extrabold">Tags</h1>
-      </header>
-    
-      <div class="h-3"></div>
+  <div class="h-3"></div>
 
-      <ul class="flex flex-wrap">
-          {{ range .Pages }}
-              <a class="tag m-1" href="{{ .Title }}">
-                  <span>
-                      {{ .Title }}
-                  </span>
-              </a>
-          {{ end }} 
-        </ul>
-    </main>
+  <ul class="flex flex-wrap">
+    {{ range .Pages }}
+    <a class="tag m-1" href="{{ .Title }}">
+      <span> #{{ .Title }} </span>
+    </a>
+    {{ end }}
+  </ul>
+</main>
 
-    {{ end }} 
-
-{{ end }}
-{{ define "footer" }}
-  {{ partial "footer" }}
-{{ end }}
+{{ end }} {{ end }} {{ define "footer" }} {{ partial "footer" }} {{ end }}
