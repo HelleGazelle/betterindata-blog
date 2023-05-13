@@ -56,6 +56,18 @@ Airbyte is an open source ELT platform for data replication from various sources
 
 </div>
 
+### Deployment options
+
+1. Docker
+2. Kubernetes
+3. AWS
+4. GCP
+5. Azure
+6. Plural
+7. Airbyte Cloud
+8. Digital Ocean
+9. Oracle Cloud
+
 ### Alternatives
 
 1. Fivetran
