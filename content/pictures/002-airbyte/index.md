@@ -6,7 +6,7 @@ cover: img/cover.webp
 picture: img/airbyte.png
 tags:
   - pipeline
-  - batch processing
+  - batch-processing
   - ingestion
   - elt
 date: 2023-05-10
